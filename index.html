@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brolin Site </title>
+</head>
+<body>
+    <!-- navigation area  -->
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand"><a href="index.html">Brolin</a></div>
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="interests.html" class="nav-link">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#form" class="nav-link">Visit Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Picture of me and my name area -->
+<section class="main-section">
+    <div class="me-container">
+        <img src="Static/20200807_190607_OCon(NP)0069art.JPG" alt="Picture of Brolin the legend" class="me">
+    </div>
+</section>
+
+<section id="about">
+    <div class="about_header">
+        <h3>About Brolin</h3>
+    </div>
+    <div class="info-container">
+        <div class="hometown">
+            <p class="details">I was born in Eaton Colorado, it is a 
+                small farm area outside of Fort Collins a ways.</p>
+        </div>
+        <div class="things_i_did">
+            <p class="details">
+                I played baseball for the majority
+                 of my highschool career. I was going
+                  to play in college but did not want
+                   to so instead I ended up going to
+                    UNL for a bit now CSU. 
+            </p>
+        </div>
+        <div class="goals">
+            <p class="details">
+                I hope to finish this 
+                coding camp, my degree,
+                 and get a job in the
+                  tech world. I then will
+                   tkae the skills that I 
+                   have obtained and reach 
+                   into the financial field 
+                   as well. I have connections 
+                   to boith of these industries 
+                   already just need to get to work. 
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="form-container" id="form">
+    <h1>Website Feedback</h1>
+        <form action="submit_feedback.php" method="POST">
+            <label for="feedback">How did you like our website?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Your feedback here..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+</div>
+
+</body>
+</html>
